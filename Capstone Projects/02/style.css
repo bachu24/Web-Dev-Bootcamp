@@ -1,8 +1,15 @@
 h1,.title{
     color: #12372A;
     font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fonth1{
+    color: #12372A;
+    font-family: "DotGothic16", sans-serif;
     font-weight: 900;
-    font-style: bold;
+    font-style: bold; 
 }
 
 p{
@@ -15,6 +22,7 @@ p{
 .font{
     font-family: "Turret Road", sans-serif;
     font-weight: 400;
+    color: #FBFADA;
 }
 
 .move-left {
@@ -35,4 +43,9 @@ p{
     height: 100px;
     width: 110px;
     border-radius: 50%;
+  }
+
+  .ft{
+    background-color: #12372A;
+    
   }
