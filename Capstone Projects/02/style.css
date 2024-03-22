@@ -19,3 +19,11 @@ p{
     background-color: #FBFADA;
 }
 
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:50vh;
+
+}
