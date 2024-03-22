@@ -1,0 +1,21 @@
+h1{
+    color: #12372A;
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+}
+
+p{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 800;
+    font-style: normal;   
+}
+
+.move-left {
+    margin-right: 300px; 
+  }
+
+.heading{
+    background-color: #FBFADA;
+}
+
