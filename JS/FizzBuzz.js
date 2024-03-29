@@ -4,9 +4,9 @@
 // if both = FizzBuzz
 
 var output=[];
-var num=1
+
 function fizzbuzz(){
-    while(num<=15){
+    for (var num=1;num<=15;num++){
     
         if(num%3 === 0 && num%5===0) {
             output.push("FizzBuzz");
@@ -17,8 +17,9 @@ function fizzbuzz(){
         }else{output.push(num);
         }
         
-        num++;
+        
     }
     console.log(output);
 
 }
+// fizzbuzz();
