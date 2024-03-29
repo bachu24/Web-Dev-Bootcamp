@@ -1,3 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/8.2 Responsiveness/grid.html"
+    "livePreview.defaultPreviewPath": "/8.2 Responsiveness/grid.html",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": false
 }
