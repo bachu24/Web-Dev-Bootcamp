@@ -1,11 +1,18 @@
 for(var i=0;i<document.querySelectorAll(".drum").length;i++){
-    document.querySelectorAll(".drum")[i].addEventListener("click", handleClick)
-}
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+        var buttonInnerHTML = this.innerHTML;
+        makeSound(buttonInnerHTML);
+    })
+};
 
-function handleClick(){
+document.addEventListener("keydown", function(event){    
+    makeSound(event.key);
+})
+
+function makeSound(key){
     var buttonInnerHTML = this.innerHTML;
     
-    switch (buttonInnerHTML) {
+    switch (key) {
         case "w":
             var tom1= new Audio("sounds/tom-1.mp3");
             tom1.play();
@@ -53,4 +60,3 @@ function handleClick(){
     alert("I got clicked!");
 })
 **/
-
