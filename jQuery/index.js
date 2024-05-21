@@ -26,6 +26,7 @@ for(var i=0;i<5;i++){
 //using jQuery, no need to loop through the buttons
 $("button").click(function(){
     $("h1").css("color","pink");
+    $("h1").slideUp().slideDown().animate({opacity:0.5});
 });
 
 $("input").keydown(function(event){
