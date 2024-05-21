@@ -7,3 +7,5 @@ $("h1").addClass("big-title margin-50");
 
 $("h1").text("Bye");
 $("button").html("<em>Hey</em>");
+
+$("a").attr("href","https://www.yahoo.com");//changign the attribute of a tag
