@@ -41,3 +41,6 @@ $("h1").on("mouseover",function(){
     $("h1").css("color","blue");
 })
 
+//adding and removing elements
+$("h1").before("<button>New</button>");
+$("h1").append("<button>New</button>");//add button in h1 tag
