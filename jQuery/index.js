@@ -12,7 +12,7 @@ $("a").attr("href","https://www.yahoo.com");//changign the attribute of a tag
 
 //event listener
 $("h1").click(function() {
-    $("h1").css("color","purple");
+    $("h1").css("color","#b0aca3");
   
 });
 
@@ -44,4 +44,4 @@ $("h1").on("mouseover",function(){
 
 //adding and removing elements
 $("h1").before("<button>New</button>");
-$("h1").append("<button>New</button>");//add button in h1 tag
+//$("h1").append("<button>New</button>");//add button in h1 tag
