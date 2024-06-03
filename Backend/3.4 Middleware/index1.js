@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post("/submit",(req,res)=>{//same as form action in index.htmlç
+app.post("/submit",(req,res)=>{//same as form action in index.html
   console.log(req.body);
 })
 
