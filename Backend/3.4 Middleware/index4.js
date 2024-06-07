@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submit",(req,res)=>{//same as form action in index.html
-  console.log(req.body);
+  //console.log(req.body);
   res.send(`<h1>Your band name is: </h1><p><b>${req.body["street"]}${req.body["pet"]}✌️</p>`);
 })
 
